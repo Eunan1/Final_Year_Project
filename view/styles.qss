@@ -1,0 +1,219 @@
+CalcField1 QLabel, CalcField3 QLabel {
+ 
+    color: white;
+    font-size: 38px;
+    border: none;
+    text-align: center;
+ 
+ 
+}
+ 
+CalcField1 QLineEdit, CalcField3 QLineEdit {
+    
+    background-color: #222222;
+    /*border: 1px solid #444444;*/
+    border: none;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    color: white;
+    font-size: 38px;
+    /* Additional styles for QLineEdit */
+}
+ 
+CalcField2 QLabel, CalcField2 QLineEdit {
+    background-color: #222222;
+    font-family: 'Consolas';
+    border: none;
+    text-align: center;
+    color: white;
+    font-size: 38px;
+}
+ 
+ 
+ 
+ 
+QTabBar::tab {
+    background-color: #222222; /* Tab background color */
+    border: none;
+    border-radius: 15px;
+    border-bottom-color: #222222;
+    width: 226px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+ 
+ 
+QTabBar::tab:selected, QTabBar::tab:hover {
+    border: 2px solid #555555;
+    background: #222222;
+}
+ 
+QTabBar::tab:selected {
+    background: #555555; /* Lighter background color when the tab is selected or hovered */ 
+}
+ 
+QTabWidget::pane {
+    border-top: none;
+    border-radius: 15px;
+    background-color: #333333; /* Match the tab selected background color */
+    border-top-left-radius: 0px; /* Adjust based on your design */
+    border-top-right-radius: 0px; /* Adjust based on your design */
+}
+ 
+ 
+/* Styles for the two main QFrame widgets */
+#frame_left, #frame_right {
+    
+    background-color: #333333;
+    border: 2px #444444;
+    border-radius: 15px;
+}
+ 
+/* CalculationFrame Input and Answer Box Styles */
+#frame1, #frame2, #outerFrame{
+    border-radius: 10px;
+    background-color: #222222;
+    border: 3px solid #444444;
+}
+ 
+ 
+/* CalcField 2 Special Styles */
+#formulaLabel1 {
+    font-size: 32px;
+    color: white;
+}
+ 
+#bracket1, #bracket2 {
+    font-size: 72px;
+    color: white;
+}
+ 
+#fractionLine {
+    color: white;
+    border-top: 2px solid white; /* Adjust the thickness as needed */
+ 
+}
+ 
+#title_label {
+    font-size: 32px;
+    color: white;
+}
+ 
+#description_label {
+    font-size: 16px;
+    color: white;
+}
+ 
+#iteration_number {
+    color: white;
+    font-size: 18px;
+    background-color: #222222;
+    border: 3px solid darkcyan;
+    border-radius: 15px;
+    padding-left: 0px;
+    padding-right: 0px; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+ 
+#iteration_label {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+ 
+#certainty_number {
+    color: white;
+    font-size: 18px;
+    font-family: 'Consolas';
+    background-color: #222222;
+    border: 3px solid darkcyan;
+    border-radius: 15px;
+    padding-left: 0px;
+    padding-right: 0px; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+ 
+#certainty_label {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+ 
+#label_trust_meter {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+ 
+#setup_text_label {
+    color: white;
+    font-size: 14px;
+}
+ 
+#setup_text_label2 {
+    color: white;
+    font-size: 14px;
+}
+ 
+#step1_text_label {
+    color: white;
+    font-size: 14px;
+}
+ 
+#step1_text_label2 {
+    color: white;
+    font-size: 14px;
+}
+ 
+#step2_text_label {
+    color: white;
+    font-size: 14px;
+}
+ 
+#step2_text_label2 {
+    color: white;
+    font-size: 14px;
+}
+ 
+#step2_text_label3 {
+    color: white;
+    font-size: 14px;
+}
+ 
+#step3_text_label {
+    color: white;
+    font-size: 14px;
+}
+ 
+#step3_text_label2 {
+    color: white;
+    font-size: 14px;
+}
+ 
+#step3_text_label3 {
+    color: white;
+    font-size: 14px;
+}
+ 
+QProgressBar {
+ 
+    background-color: whitesmoke;
+    border: 2px solid  white;
+    border-radius: 15px;
+    text-align: center;
+ 
+}
+ 
+QProgressBar::chunk {
+    background-color: #3C6B85;
+    border-radius: 15px;
+ 
+}
+ 
